@@ -24,6 +24,7 @@ class Song
     s = self.new_by_name
     s.save
     s
+  end
 
 
   def self.all
