@@ -40,6 +40,8 @@ class Song
     @@all.sort_by {|x| x.name}
   end
 
+  def self.new_from_filename
+
 
   def self.all
     #this returns the array of songs
