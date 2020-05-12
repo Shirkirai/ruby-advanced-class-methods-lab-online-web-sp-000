@@ -46,6 +46,7 @@ class Song
     people = rows.collect do |row|
       data = row.split(" - ") && row.split(".mp3")
       artist = data[0]
+      song_name = data[1]
   end
 
 
