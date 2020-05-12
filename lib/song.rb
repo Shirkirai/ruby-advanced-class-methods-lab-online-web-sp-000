@@ -9,7 +9,7 @@ class Song
 
   def self.create
     #instantiates and saves the song
-    self.new
+    self.new.name
     #returns the new song that was just created
 
   end
