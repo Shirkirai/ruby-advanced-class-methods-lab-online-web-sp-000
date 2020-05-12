@@ -42,9 +42,7 @@ class Song
 
   def self.new_from_filename(artist)
     s = self.new
-    s.artist_name = artist
-    s.save
-    s
+    
   end
 
 
