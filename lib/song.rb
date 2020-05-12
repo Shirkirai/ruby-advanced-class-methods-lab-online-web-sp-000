@@ -17,6 +17,7 @@ class Song
     s = self.new
     s = song_name
     s.save
+    s
 
 
   end
