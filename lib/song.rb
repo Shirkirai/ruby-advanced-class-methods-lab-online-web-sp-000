@@ -6,7 +6,7 @@ class Song
 
   def self.create
     #instantiates and saves the song
-    self.new
+    self.new.save
     #returns the new song that was just created
     s.save
     self.all
