@@ -51,6 +51,7 @@ class Song
     song = self.new
     song_match.name = (filename.split(" - ")[1].chomp(".mp3"))
     song.save
+    song
   end
 
 
