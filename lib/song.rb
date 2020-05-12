@@ -14,6 +14,7 @@ class Song
   end
 
   def save
+    #this returns All the Songs that got shoveled into the class variable @@all
     self.class.all << self
   end
 
