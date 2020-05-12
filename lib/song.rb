@@ -33,7 +33,10 @@ class Song
 
   def self.find_or_create_by_name(name)
     if self.find_by_name == false
-      self.create_by_name(name)
+      s = self.new
+      s.name = name
+      s.save
+      s
     end
   end
 
