@@ -10,6 +10,7 @@ class Song
   end
 
   def self.all
+    #this returns the array of songs
     @@all
   end
 
