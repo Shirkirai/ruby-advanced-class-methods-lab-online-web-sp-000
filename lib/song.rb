@@ -49,7 +49,7 @@ class Song
 
   def self.create_from_filename(filename)
     song = self.new
-    song.match.name = 
+    song.match.name
   end
 
 
