@@ -27,6 +27,8 @@ class Song
     s
   end
 
+  def self.find_by_name(name)
+
 
   def self.all
     #this returns the array of songs
