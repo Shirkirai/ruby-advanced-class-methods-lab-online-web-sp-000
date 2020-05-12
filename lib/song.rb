@@ -35,8 +35,8 @@ class Song
     if self.find_by_name("#{name}")
       self.all
     elsif
-      s = self.create_by_name("#{name}")
-      
+      self.create_by_name("#{name}")
+
     end
 
   end
