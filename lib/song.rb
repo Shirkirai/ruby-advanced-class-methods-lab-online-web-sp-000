@@ -11,7 +11,7 @@ class Song
     #instantiates and saves the song
     self.new.save
     #returns the new song that was just created
-
+    
   end
 
   def self.all
