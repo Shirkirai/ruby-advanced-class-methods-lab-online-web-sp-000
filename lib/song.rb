@@ -47,6 +47,7 @@ class Song
       data = row.split(" - ") && row.split(".mp3")
       artist = data[0]
       song_name = data[1]
+      celebrity = self.new
   end
 
 
