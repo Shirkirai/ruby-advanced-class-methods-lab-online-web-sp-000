@@ -3,6 +3,7 @@ class Song
   @@all = []
 
   def initialize(name)
+    @name = name
 
   def self.create
     #instantiates and saves the song
