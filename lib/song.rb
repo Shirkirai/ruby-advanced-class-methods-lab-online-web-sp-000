@@ -36,6 +36,9 @@ class Song
 
   end
 
+  def self.alphabetical
+    self.all.sort
+
 
   def self.all
     #this returns the array of songs
