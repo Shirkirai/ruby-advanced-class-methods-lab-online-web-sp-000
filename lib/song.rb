@@ -8,7 +8,6 @@ class Song
     #instantiates and saves the song
     self.new.save
     #returns the new song that was just created
-    s.save
     self.all
   end
 
