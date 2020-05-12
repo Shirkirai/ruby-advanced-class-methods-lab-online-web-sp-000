@@ -36,6 +36,7 @@ class Song
       self.all
     else
       self.create_by_name(name)
+    end
 
   end
 
