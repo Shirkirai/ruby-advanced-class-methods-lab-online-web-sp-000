@@ -18,7 +18,6 @@ class Song
     s.name = song_name
     s.save
     s
-
   end
 
   def self.create_by_name(name)
