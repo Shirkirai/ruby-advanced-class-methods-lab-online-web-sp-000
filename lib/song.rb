@@ -8,7 +8,9 @@ class Song
     #instantiates and saves the song
     self.new.save
     #returns the new song that was just created
-    self.all
+    self.all.each do |song|
+      song.name
+    end
   end
 
   def self.all
