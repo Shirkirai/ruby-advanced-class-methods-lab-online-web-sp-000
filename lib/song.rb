@@ -40,7 +40,7 @@ class Song
     @@all.sort_by {|x| x.name}
   end
 
-  def self.new_from_filename(artist)
+  def self.new_from_filename(artist_song_name)
     s = self.new
     self.all.split("\n")
   end
