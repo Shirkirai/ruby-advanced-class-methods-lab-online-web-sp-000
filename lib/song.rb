@@ -37,7 +37,7 @@ class Song
     elsif
       s = self.create_by_name("#{name}")
       s.save
-      self.class.all
+      self
     end
 
   end
