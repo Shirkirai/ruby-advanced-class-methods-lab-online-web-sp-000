@@ -50,7 +50,7 @@ class Song
   def self.create_from_filename(filename)
     song = self.new
     song_match.name = (filename.split(" - ")[1].chomp(".mp3"))
-    song
+    song.save
   end
 
 
