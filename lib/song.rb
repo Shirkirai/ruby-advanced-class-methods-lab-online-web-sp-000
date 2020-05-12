@@ -45,6 +45,7 @@ class Song
     s.artist_name = artist
     s.save
     s
+  end
 
 
   def self.all
