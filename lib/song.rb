@@ -53,6 +53,8 @@ class Song
     song
   end
 
+  def self.destroy_all
+
 
   def self.all
     #this returns the array of songs
