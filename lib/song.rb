@@ -13,6 +13,8 @@ class Song
     s
   end
 
+  def self.new_by_name
+
   def self.all
     #this returns the array of songs
     @@all
