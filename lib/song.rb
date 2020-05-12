@@ -8,7 +8,7 @@ class Song
     #instantiates and saves the song
     s = self.new
     s.save
-    s
+    
     #returns the new song that was just created
 
   end
