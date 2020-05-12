@@ -9,7 +9,7 @@ class Song
     s = self.new
     #returns the new song that was just created
     s.save
-    s.all
+    self.all
   end
 
   def self.all
