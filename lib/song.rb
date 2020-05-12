@@ -18,9 +18,8 @@ class Song
     s.name = song_name
     s.save
     s
-
-
   end
+
 
   def self.all
     #this returns the array of songs
