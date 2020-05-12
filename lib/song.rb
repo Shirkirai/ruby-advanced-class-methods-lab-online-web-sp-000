@@ -23,6 +23,7 @@ class Song
   def self.create_by_name(name)
     s = self.new_by_name
     s.save
+    s
 
 
   def self.all
