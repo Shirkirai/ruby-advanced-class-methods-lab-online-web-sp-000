@@ -10,7 +10,7 @@ class Song
     #instantiates and saves the song
     @@all << self.new
     #returns the new song that was just created
-    self.all
+    @@all
   end
 
   def self.all
